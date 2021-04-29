@@ -1,4 +1,4 @@
-## MaskNet-Occluded-face-Recognition-Sytem
+## MaskNet-Occluded-face-Recognition-System
 MaskNet is an Occluded face recognition system which capable in recognition masked faces. The  project is developed through the research study. the research study can found [here](). 
 
 # Research Results
