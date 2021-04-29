@@ -1,8 +1,8 @@
 ## MaskNet-Occluded-face-Recognition-System
-MaskNet is an Occluded face recognition system which capable in recognition masked faces. The  project is developed through the research study. the research study can found [here](). 
+MaskNet is an Occluded face recognition system which capable in recognition masked faces. The  project is developed through the research study. 
 
 ## Research Results
-Please find the research results of MaskNet : Results of the research Oclussion Invariant Face Recognition for masked faces described in the following link. [Results of the research](https://www.researchgate.net/project/Face-Mask-Invariant-Face-Recognition-with-Identity-Verification)
+Please find the research results of MaskNet : Oclussion Invariant Face Recognition for masked faces in the following link. [Results of the research](https://www.researchgate.net/project/Face-Mask-Invariant-Face-Recognition-with-Identity-Verification)
 
 ## Setting up the project 
 Clone the repository from GitHub
@@ -18,7 +18,6 @@ Run this in the root dir to launch the application.
 	python Dashboard.py
 
 This has a extensible, user operable facial recognition application.However, there are limitations with it as well. Anyone wishing to work on the limitations are welcome to do so.
-
 
 # Technologies, Frameworks and Tools
 Python 3.6
