@@ -1,13 +1,13 @@
 ## MaskNet-Occluded-face-Recognition-System
-MaskNet is an Occluded face recognition system which capable in recognition masked faces. The  project is developed through the research study. 
+MaskNet is an occluded face recognition system which capable in recognition masked faces. The  project is developed through the research study. 
 
 ## Research Results
-Please find the research results of MaskNet : Oclussion Invariant Face Recognition for masked faces in the following link. [Results of the research](https://www.researchgate.net/project/Face-Mask-Invariant-Face-Recognition-with-Identity-Verification)
+Please find the research results of MaskNet : Occlusion Invariant Face Recognition for masked faces in the following link. [Results of the research](https://www.researchgate.net/project/Face-Mask-Invariant-Face-Recognition-with-Identity-Verification)
 
 ## Setting up the project 
 Clone the repository from GitHub
 
-	git clone https://github.com/Ayoob7/facenet-face-recognition.git
+	git clone https://github.com/susithrj/MaskNet-Occluded-face-Recognition-System.git
 
 Install project requirements
 
