@@ -20,19 +20,19 @@ Run this in the root dir to launch the application.
 This has a extensible, user operable facial recognition application.However, there are limitations with it as well. Anyone wishing to work on the limitations are welcome to do so.
 
 # Technologies, Frameworks and Tools
-Python 3.6
-scikit-learn
-matplotlib
-opencv-contrib-python
-tensorflow== 2.4.1
-keras == 2.4.3
-scipy
-h5py
+    Python 3.6
+    scikit-learn
+    matplotlib
+    opencv-contrib-python
+    tensorflow== 2.4.1
+    keras == 2.4.3
+    scipy
+    h5py
 
 # Tools for project management
-Storage - Google Drive
-Version Control - GitHub
-Documentation - Microsoft Word, Markup Files, MD Editor
+    Storage - Google Drive
+    Version Control - GitHub
+    Documentation - Microsoft Word, Markup Files, MD Editor
 
 # Usage
 # Contributing
