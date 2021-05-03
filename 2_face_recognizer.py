@@ -7,14 +7,22 @@ import numpy as np
 import os
 from datetime import datetime
 
+import os
+
+import os
+import os
 
 
-# Loads the saved model
-model = load_model(r'latestmodels/MaskNet27.2.h5')
-# model = load_model(r'latestmodels/sfacial_recognition_dc5.h5')
-# model = load_model(r'latestmodles/masknet5.h5')
-# model = load_model(r'../latestmodles/modelvgg16v1.h5')
-# model = load_model('latestmodels/sfacial_recognition_dc8v32.h5')
+
+
+# Loads the saved daytime model
+# model = load_model(r'latestmodels/MaskNet27.2.h5')
+
+# Loads the saved nt model
+#model = load_model(r'latestmodels/MaskNet27.1.h5')
+
+# Loads the saved b model
+model = load_model(r'latestmodels/MaskNet.h5')
 
 # Loading the cascades
 face_cascade = cv2.CascadeClassifier('util/haarcascade_frontalface_default.xml')
@@ -23,8 +31,9 @@ face_cascade = cv2.CascadeClassifier('util/haarcascade_frontalface_default.xml')
 #   shaped_img = preprocessed_image.reshape(1,224,224,3)
 #   classes = model1.predict(shaped_img)
 
-names = ["Achintha", "Minindu", "Sandusha","Saneth", "Susith"]
-
+# names = ["Achintha", "Minindu", "Sandusha","Saneth", "Susith"]
+names = os.listdir('dataset5/train')
+# print(names)
 def face_extractor(img):
     # Function detects faces and returns the cropped face
     # If no face detected, it returns the input image
@@ -48,7 +57,7 @@ video_capture = cv2.VideoCapture(0)
 
 
 def markAttendance(name):
-    print('going to mark attendance')
+    # print('going to mark attendance')
     with open('attendence.csv','r+') as f:
         myDataList = f.readlines()
         nameList = []
@@ -76,26 +85,26 @@ while True:
         # So changing dimension 128x128x3 into 1x128x128x3
         img_array = np.expand_dims(img_array, axis=0)
         pred = model.predict(img_array)
-        print(pred)
+        # print(pred)
 
-        name = "None matching"
+
 
         # threashold value is set.
         # if (pred[0][0] > 0.5):
-        #     name = 'amma'
+        #     name = 'achintha'
         #     cv2.putText(frame, name, (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
         # elif(pred[0][1] > 0.5):
         #     name = 'dad'
         #     cv2.putText(frame, name, (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
-        if (pred[0][4] > 0.10 ):
+        # threashold value is set.
+        if (pred[0][4] > 0.90 ):
             val =pred[0][4]
             name = names[4]
             markAttendance(name)
-            # y1, x2, y2, x1 = faceLoc
-            # y1, x2, y2, x1 = y1 * 4, x2 * 4, y2 * 4, x1 * 4
-            # cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0), 2)
-            # cv2.rectangle(img, (x1, y2 - 35), (x2, y2), (0, 255, 0), cv2.FILLED)
+            att = 'Your attendance marked'
             cv2.putText(frame, name, (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
+            cv2.putText(frame, att, (40, 80), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (0, 255, 0), 2)
+
         else:
             name = "no match found"
             cv2.putText(frame, name, (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
@@ -104,13 +113,10 @@ while True:
     else:
         cv2.putText(frame, "face not found", (50, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
     cv2.imshow('Video', frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) == 27 :  # 13 is the Enter Key 27 esc
         break
 video_capture.release()
 cv2.destroyAllWindows()
-# while cv2.getWindowProperty('window-name', 0) >= 0:
-#     keyCode = cv2.waitKey(50)
-#     # ...
 
 
 
