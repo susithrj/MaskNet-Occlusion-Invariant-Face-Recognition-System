@@ -35,7 +35,7 @@ def exit_program():
 
 # Class variables
 padding = 5
-news_sticky = N + E + W + S
+news_sticky = 'NSEW'
 font_size = 20
 foreground_color = 'white'
 top_background_color = 'dark blue'
