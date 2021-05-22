@@ -62,7 +62,6 @@ while True:
     if type(face) is np.ndarray:
         face = cv2.resize(face, (224, 224))
         im = Image.fromarray(face, 'RGB')
-        # Resizing into 224x224 because we trained the model with this image size.
         img_array = np.array(im)
         img_array = np.expand_dims(img_array, axis=0)
         pred = model.predict(img_array)
