@@ -19,7 +19,7 @@ Run this in the root dir to launch the application.
 
 This has a extensible, user operable facial recognition application.However, there are limitations with it as well. Anyone wishing to work on the limitations are welcome to do so.
 
-# Technologies, Frameworks and Tools
+## Technologies, Frameworks and Tools
     Python 3.6
     scikit-learn
     matplotlib
@@ -29,13 +29,8 @@ This has a extensible, user operable facial recognition application.However, the
     scipy
     h5py
 
-# Tools for project management
-    Storage - Google Drive
-    Version Control - GitHub
-    Documentation - Microsoft Word, Markup Files, MD Editor
-
-# Usage
-# Contributing
-# Credits
-# cLicense
+## Usage
+## Contributing
+## Credits
+## cLicense
 
