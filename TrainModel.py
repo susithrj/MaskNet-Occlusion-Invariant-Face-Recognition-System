@@ -139,7 +139,6 @@ def augment_data(imgs, rotations, brightness_values, labels):
   return np.array(timg), np.array(y_hat)
 
 
-
 rotations = np.arange(0, 2)
 brightness_values = [ 0.4, 2]
 

@@ -53,6 +53,7 @@ def markAttendance(name):
 Real time recognition starts here.
 '''
 # Initialize camera
+
 video_capture = cv2.VideoCapture(0)
 
 while True:
