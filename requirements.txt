@@ -2,7 +2,7 @@ Python 3.6
 scikit-learn
 matplotlib
 opencv-contrib-python
-tensorflow== 2.4.1
+tensorflow == 2.4.1
 keras == 2.4.3
 scipy
 h5py
