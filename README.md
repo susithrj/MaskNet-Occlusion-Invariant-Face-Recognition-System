@@ -1,7 +1,7 @@
 ## MaskNet-Occlusion-Invariant-Face-Recognition-System
 MaskNet is an occlusion invariant face recognition solution built to overcome the limitations of recognizing faces while wearing a face mask. 
 
-[##what is Masknet?](https://garnet-cardamom-4d4.notion.site/MASKNET-c4a6277ac1f84fcdb92cc784ecef08ee)
+[what is Masknet?](https://garnet-cardamom-4d4.notion.site/MASKNET-c4a6277ac1f84fcdb92cc784ecef08ee)
 
 ## Research Results
 Please find the research results of MaskNet : Occlusion Invariant Face Recognition for masked faces in the following link. [Results of the research.](https://www.researchgate.net/project/Face-Mask-Invariant-Face-Recognition-with-Identity-Verification)
@@ -25,7 +25,7 @@ This has a extensible, user operable facial recognition application.However, the
     Python 3.6
     scikit-learn
     matplotlib
-    opencv-contrib-python
+  opencv-contrib-python
     tensorflow== 2.4.1
     keras == 2.4.3
     scipy
