@@ -35,7 +35,7 @@ This has a extensible, user operable facial recognition application.However, the
 ## Contributing
 ## Credits
 ## cLicense
-## More
+
 # MASKNET
 
 Can Face recognition tech identify you while wearing a face mask?
@@ -44,7 +44,7 @@ Can Face recognition tech identify you while wearing a face mask?
 
 Recognizing faces while wearing a face mask is considered the most difficult facial occlusion challenge because it occludes a large area that usually covers around 60% of the frontal face which contains rich features including the nose and mouth. This is emerging problem which higlighted during the pandemic period. I was able to develop a appropriate solution to overcome the above issue through a research study. The developed occlusion invariant face recognition system is published as a open work to the public.
 
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/3947affc-9d44-426c-8379-570927154d6c/567b7121-b359-487c-a61d-402f1fdc78cc/image2.png
+[!https://prod-files-secure.s3.us-west-2.amazonaws.com/3947affc-9d44-426c-8379-570927154d6c/567b7121-b359-487c-a61d-402f1fdc78cc/image2.png](https://garnet-cardamom-4d4.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F3947affc-9d44-426c-8379-570927154d6c%2F42bd3b35-1afa-46de-a6f5-71be77bd6972%2Fimage4.png?table=block&id=6270c6b5-2013-4cb9-b455-d8671a10187f&spaceId=3947affc-9d44-426c-8379-570927154d6c&width=1400&userId=&cache=v2)
 
 Rapid development and breakthrough of deep learning in the recent past have witnessed the most promising results from face recognition algorithms. But they fail to perform far from satisfactory levels in the unconstrained environment during the challenges such as varying lighting conditions, low resolution, facial expressions, pose variation and occlusions (Wen et al., 2016). Among the challenges, Occlusion is one of the most challenging problems faced by current face recognition algorithms. Moreover, Face mask makes higher inter-class similarity and inter-class variations due to covering a large area of the face which tricks the facial verification. process of face recognition systems (Guo and Zhang, 2019). Ongoing Face Recognition Vendor Test (FRVT) (Ngan, Grother and Hanaoka, 2020) is a performance evaluation report based on 89 face verification algorithms while wearing face masks (Ngan, Grother and Hanaoka, 2020). The study (Damer et al., 2020), concludes their results on the effect of wearing a face mask which given strong points of performance degradation on face recognition systems, showing the necessity of the development of mask capable face recognition systems.
 
