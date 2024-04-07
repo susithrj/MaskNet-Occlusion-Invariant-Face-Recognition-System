@@ -1,4 +1,4 @@
-## MaskNet-Occlusion-Invariant-Face-Recognition-System
+## [MaskNet-Occlusion-Invariant-Face-Recognition-System](https://garnet-cardamom-4d4.notion.site/MASKNET-c4a6277ac1f84fcdb92cc784ecef08ee)
 MaskNet is an occlusion invariant face recognition solution built to overcome the limitations of recognizing faces while wearing a face mask. 
 
 ## Research Results
