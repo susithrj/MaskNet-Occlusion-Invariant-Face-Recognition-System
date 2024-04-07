@@ -40,7 +40,7 @@ This has a extensible, user operable facial recognition application.However, the
 
 Can Face recognition tech identify you while wearing a face mask?
 
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/3947affc-9d44-426c-8379-570927154d6c/42bd3b35-1afa-46de-a6f5-71be77bd6972/image4.png
+https://susithrj.github.io/images/works/fr2.webp
 
 Recognizing faces while wearing a face mask is considered the most difficult facial occlusion challenge because it occludes a large area that usually covers around 60% of the frontal face which contains rich features including the nose and mouth. This is emerging problem which higlighted during the pandemic period. I was able to develop a appropriate solution to overcome the above issue through a research study. The developed occlusion invariant face recognition system is published as a open work to the public.
 
